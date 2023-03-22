@@ -2,7 +2,22 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   darkMode: "class",
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+    },
+    colors: {
+      yellow: "#FEC80B",
+      yellowHover: "#FFD43A",
+      yellowActive: "#E9C135",
+
+    },
     extend: {
+      borderRadius: {
+        sm: "4px",
+      },
       fontFamily: {
         "chinese": [
           "Helvetica Neue",
