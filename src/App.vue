@@ -1,5 +1,5 @@
 <template>
-<btn-big/>
+<btn-big @click=""/>
   <textField/>
 </template>
 <script setup>
