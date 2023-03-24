@@ -1,12 +1,17 @@
-<script setup>
-const title = ref("Hello World");
-title.value = "Hello ";
+<script setup lang="ts">
+import Button from "@/components/buttons/MainButton.vue";
+
+function log() {
+  console.log("hello");
+}
 </script>
 
 <template>
-  <div class="flex h-full items-center justify-center">
-    <button class="h-[44px] w-[185px] rounded-sm bg-yellow text-[#000] hover:bg-yellowHover active:bg-yellowActive">
-      {{ title }}
-    </button>
+  <div class="flex h-full flex-col items-center justify-center gap-[10px]">
+    <Button class="" />
+    <Button size="small" />
+    <Button size="medium" @focus="log" />
+    <Button size="large" icon-left="ARROW" />
+    <input type="text">
   </div>
 </template>
