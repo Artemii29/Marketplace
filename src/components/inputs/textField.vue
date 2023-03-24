@@ -1,11 +1,9 @@
 <template>
-  <input type="text" class="">
+  <input type="text" class="hover:border-yellow border-white active:border-yellow" placeholder="Иван Иванов" >
 </template>
 
-<script>
-export default {
-  name: "textField"
-}
+<script setup>
+
 </script>
 
 <style>
