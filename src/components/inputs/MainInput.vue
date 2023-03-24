@@ -2,7 +2,7 @@
 interface Props {
   placeholder: string;
   size?: Size ;
-  // typeDisplay?: TypeDisplay;
+  typeDisplay?: string;
   value?: string;
 
 }
