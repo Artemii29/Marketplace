@@ -21,5 +21,5 @@ enum Size {
   'sm:h-[44px] sm:w-[185px] md:h-[48px] md:w-[200px]': size === Size.medium,
   'sm:h-[48px] sm:w-[220px] ': size === Size.large,
   }"
-  @input="$emit('broadcast',userInput)">
+  @input="$emit('broadcast', userInput)">
 </template>
