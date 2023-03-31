@@ -15,6 +15,8 @@ declare module '@vue/runtime-core' {
     ITablerChevronDown: typeof import('~icons/tabler/chevron-down')['default']
     ITablerColorSwatch: typeof import('~icons/tabler/color-swatch')['default']
     ITablerLanguage: typeof import('~icons/tabler/language')['default']
+    MainButton: typeof import('./../src/components/buttons/MainButton.vue')['default']
+    MainInput: typeof import('./../src/components/inputs/MainInput.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TextField: typeof import('~/components/inputs/MainInput.vue')['default']
